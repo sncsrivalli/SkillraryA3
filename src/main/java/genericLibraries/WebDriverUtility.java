@@ -132,7 +132,7 @@ public class WebDriverUtility {
 	 */
 	public void rightClick(WebElement element) {
 		action = new Actions(driver);
-		action.moveToElement(element).perform();
+		action.contextClick(element).perform();
 	}
 	
 	/**
